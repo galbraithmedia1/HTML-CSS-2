@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("./assets/fonts/D-DIN-Bold.woff2");
+}
+
+body {
+  background-image: url("./assets/DESKTOP_COSMO_HOMEPAGE.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+  overflow: hidden;
+  font-family: myFirstFont;
+}
+
+.navbar {
+  display: flex;
+
+  margin: 30px;
+  height: 50px;
+  justify-content: space-between;
+}
+.navbar__space {
+}
+
+.img {
+  height: 50px;
+}
+
+.navbar__items {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+.menu-list li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.navbar__shop {
+  display: flex;
+  color: white;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar__shop img {
+  width: 25px;
+  height: 25px;
+}
+.menu-lists-items {
+  padding-right: 25px;
+  cursor: pointer;
+  font-family: var(--);
+}
+
+.hero-top {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  width: 70%;
+  height: 100vh;
+  align-items: flex-end;
+  align-self: end;
+}
+
+.hero-section {
+  height: 40%;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+.div-space {
+  width: 100%;
+}
+
+.button {
+  background: none;
+  border: 2px solid white;
+  padding: 10px 35px;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.164);
+}
